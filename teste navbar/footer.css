@@ -1,0 +1,43 @@
+footer {
+    color: white;
+    background-color: #191919;
+    border-radius: 0px;
+    border-width: 100px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+.texto {
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.imagem {
+    position: absolute;
+    margin-left: 15px;
+    width: 100px !important;
+    height: 50px !important;
+}
+.imagem img {
+    height: 50px;
+}
+
+@media (max-width: 700px){
+    .texto{
+        font-size: 10px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    .imagem img {
+        width: 122.38px;
+    }
+}
