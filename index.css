@@ -1,0 +1,56 @@
+body {
+    background-color: #EAEAEA;
+}
+
+.card-box {
+    background-color: rgb(250, 250, 250);
+    width: 350px;
+    height: 340px;
+    border: 1px black;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.5);
+    margin-top: 240px;
+    /* padding: 40px; */
+}
+
+input {
+    width: 250px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: #757575;
+    border-style:solid;
+    padding-bottom: 10px;
+    align-items: left;
+    text-align: left;
+    margin-top: 5px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.btn_entrar {
+    color: white;
+    background-color: black;
+    width: 250px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.senha, .email, .esqueceu_senha {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.email {
+    padding-top: 25px;
+}
+
+@media (max-height: 740px) {
+    .card-box{
+        margin-top: 130px;
+    }
+
+}
